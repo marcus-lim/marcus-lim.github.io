@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -49,16 +50,31 @@ navbar1 {
       background-color: rgba(255,255,255,0.9);
     }
 
-.anchor { padding-top: 90px; }
+
 
 a1 {
-  
+
 }
 
 name {
-              font-family: Palatino, sans-serif;
-              font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.525);
+        font-family: Palatino, sans-serif;
+        font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.5);
             }
+@media only screen and (max-width: 480px) {
+  name {
+          font-family: Palatino, sans-serif;
+          font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.6);
+              }
+            }
+            
+@media only screen and (max-width: 480px) {
+    body {
+                      font-family: Palatino, sans-serif;
+                      font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
+                          }
+                        }
+.anchor { padding-top: 90px; }
+
 
 paperextra {
               font-family: Palatino, sans-serif;
