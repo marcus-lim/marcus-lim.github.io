@@ -1,11 +1,20 @@
+@import "bootstrap";
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
       font-family: Palatino, sans-serif;
-      font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.5);
+      font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
       width: 90%;
       margin: 0 auto; // to center your div.
      	left-margin: 2em;
       max-width: 90%;
       border-collapse:separate;
+      position: relative;
       margin-right:auto;
       margin-left:auto;
       line-height: 1.2;
@@ -24,36 +33,47 @@ body {
       text-decoration: none;
     }
 
+.split {
+       display: flex;
+       justify-content: space-between;
+    }
+
+navbar1 {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      background-color: #FFFFFF;
+      width: 85%;
+      padding: 0.5em 0em 0em 0em;
+      border-bottom: 1px solid black;
+      background-color: rgba(255,255,255,0.9);
+    }
+
+.anchor { padding-top: 90px; }
+
+a1 {
+  
+}
+
 name {
               font-family: Palatino, sans-serif;
-              font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.7);
+              font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.525);
             }
 
 paperextra {
               font-family: Palatino, sans-serif;
-              font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.8);
+              font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.35);
             }
 
 heading {
-      font-family: Palatino, sans-serif;
-      font-size: 22px;
-    }
+                      font-family: Palatino, sans-serif;
+                      font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.9375);
+            }
+miniheading {
+          font-family: Palatino, sans-serif;
+          font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
+        }
 
-
-.one {
-      width: 160px;
-      height: 160px;
-      position: relative;
-    }
-
-.two {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
 
 
 .collapsible {
@@ -87,7 +107,7 @@ heading {
         		  /*font-weight: 500;*/
               text-align: justify;
           		line-height: 25px;
-          		background: #fcfcfc;
+          		background: #DDDDDD;
          		  max-height: 0;
           		overflow: hidden;
           		border-radius: 15px;

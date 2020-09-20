@@ -1,65 +1,103 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
 
-<html lang="en">
+<html lang="en" id="home">
 <head>
   <title>Marcus Lim</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Palatino' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Courier+Prime&display=swap' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/ico" href="img/favicon.ico">
 
 </head>
-<body link=#003262 vlink=#003262>
-    <name><b>Marcus Lim</b></name><br>
-    Contact: <a href="mailto:marcuslim@uchicago.edu" target="_blank" style="font-family: 'Courier Prime', san-serif;">marcuslim@uchicago.edu</a> <br><br>
-    <div class="row">
-    <p>
-    I am a Predoctoral Research Professional at <a href="https://bfi.uchicago.edu/info-for/prep/" target="_blank"> Becker Friedman Institute </a> at the University of Chicago.<br>
-  </p>
-    Here is my <a href="#" target="_blank">CV</a>.
+<body data-spy="scroll">
+
+  <!-- Heading Here -->
+<navbar1 data-spy="affix" data-offset-top="1">
+<div class="split">
+  <div><name><b>Marcus Lim</b></name></div><br>
+  <div style="word-spacing: 1em; position: relative; right: 1em;"><br>
+  <a href="#home">Home</a>
+  <a href="#" target="_blank">CV</a>
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+  <br>
   </div>
+</div>
+</navbar1>
+<br>
+<div class="row" style="padding: 1em 0em 0em 0em;">
+  Email: <a href="mailto:marcuslim@uchicago.edu" target="_blank" style="font-family: 'Courier Prime', san-serif;">marcuslim@uchicago.edu</a> <br><br>
+</div>
+<div class="row">
+      I am a Predoctoral Research Professional at the <a href="https://bfi.uchicago.edu/info-for/prep/" target="_blank"> Becker Friedman Institute </a> at the University of Chicago.<br>
+<!-- If page too long:
+    <a href="#research">Research</a> <br>
+    <a href="#teaching">Teaching</a> <br> -->
+</div><br><br>
+
+<!-- Research Interest Here -->
 
   <div class="col-sm-4">
-    <h3><b>Research Interest</b></h3>
-        I am interested in labor economics, particularly on topics related to labor markets. I am also broadly interested in topics related to public, health and urban economics.
+    <heading><b>Research Interest</b></heading><br><br>
+        I am interested in labor economics, particularly on topics related to labor markets. I am also broadly interested in research related to public, health and urban economics.
   </div>
+  <br>
+  <br>
+
+
+<!-- Working Paper Here -->
+
+    <div>
+      <heading id="research"><a1 class="anchor"><b>Work in Progress</b></a1></heading><br><br>
+    </div>
+        <!--Paper Format -->
+        <a href="#" target="_blank"> <!-- Paper Title -->
+        Paper Title
+        </a>
+        <br>
+        <paperextra>
+        <a href="#" target="_blank">[Slides]</a> <!-- Slides -->
+        <a class="collapsible">[Abstract</a> <!-- Abstract -->
+        <div class="content"><p>
+         	<b>Abstract:</b> Paper's abstract
+         </p>
+        </paperextra>
+       </div><br><br>
+       <!--Paper Format (End) -->
+
+<!-- RA Experience Here -->
+
 
   <div class="col-sm-4">
-    <h3><b>Research Experience</b></h3>
-  </div><br>
+    <heading><b>Research Experience</b></heading><br><br>
+  </div>
+      <miniheading><b>Research Professional at the University of Chicago</b></miniheading><br>
+      Working for Prof. Magne Mogstad, July 2020 - present <br><br>
+      <miniheading><b>Research Assistant at the University of British Columbia</b></miniheading><br>
+      Working for Prof. Nicole Fortin, Thomas Lemieux and Marit Rehavi, September 2019 - June 2020 <br><br>
+      <miniheading><b>Research Assistant at the National University of Singapore </b></miniheading><br>
+      Working for Prof. Changcheng Song, May 2017 - August 2019 <br><br>
+      <br >
 
-  <div class="col-sm-4">
-    <h3><b>Teaching Experience</b></h3>
-  </div><br>
+<!-- TA Experience Here -->
 
-  <div class="col-sm-4">
-    <h3><b>Working Paper</b></h3>
 
-    <!--Paper Format -->
-       <a href="#" target="_blank"> <!-- Paper Title -->
-       Paper Title
-       </a>
-       <br>
-       <paperextra>
-       <a href="#" target="_blank">[Slides]</a> <!-- Slides -->
-       <a href="#" target="_blank">[Appendix]</a> <!-- Appendix -->
-       <a class="collapsible">[Abstract</a>
-       	<div class="content"><p> <!-- Abstract -->
-       		<b>Abstract:</b> Paper's abstract
-       	</p>
-       	</div>
-       </paperextra>
-     </div><br><br><br>
+  <div class="col-sm-4" id="teaching">
+    <heading><b><a1 class="anchor">Teaching Experience</b></a1></heading><br><br>
+  </div>
+      <miniheading><b>Teaching Assistant at UBC:</b></miniheading><br>
+      ECON 326 Methods of Empirical Research in Economics, Spring 2020 <br>
+      ECON 325 Introduction to Empirical Economics, Fall 2019 <br><br>
+      <miniheading><b>Teaching Assistant at NUS:</b></miniheading><br>
+      EC2104 Quantitative Methods for Economic Analysis, Spring 2019 <br><br>
+      <br>
 
+
+<!-- Site Ends Here -->
 
 
 <script>
@@ -79,6 +117,23 @@
      	    }
      	  });
      	}
+</script>
+
+<script>
+$(document).ready(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 125
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 </script>
 
 </body>
