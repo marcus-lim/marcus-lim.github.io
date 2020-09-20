@@ -1,16 +1,16 @@
 body {
       font-family: Palatino, sans-serif;
       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.5);
-      width: 100%;
+      width: 90%;
       margin: 0 auto; // to center your div.
      	left-margin: 2em;
-      max-width: 100%;
+      max-width: 90%;
       border-collapse:separate;
       margin-right:auto;
       margin-left:auto;
       line-height: 1.2;
       box-sizing: border-box;
-   	  padding: 2em 10em 2em 10em;
+   	  padding: 2em 2em 2em 2em;
     }
 
     a {
@@ -38,6 +38,7 @@ heading {
       font-family: Palatino, sans-serif;
       font-size: 22px;
     }
+
 
 .one {
       width: 160px;
