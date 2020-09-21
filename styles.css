@@ -71,6 +71,8 @@ name {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
                     }
 
+                    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.24); }
+
 
 @media only screen and (max-width: 480px) {
     body {
@@ -89,6 +91,9 @@ name {
     miniheading {
                      font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
                                   }
+
+    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.288); }
+
                         }
 
 @media only screen and (max-width: 380px) {
@@ -108,6 +113,7 @@ name {
     miniheading {
                         font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.728);
                                               }
+    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.3456); }
                           }
 
 @media only screen and (max-width: 300px) {
@@ -127,8 +133,9 @@ name {
     miniheading {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.0736);
                                                                         }
+    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.41472); }                                          
+
                                                     }
-.anchor { padding-top: 90px; }
 
 
 
