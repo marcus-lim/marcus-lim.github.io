@@ -8,7 +8,7 @@ html {
 }
 
 body {
-      font-family: Palatino, sans-serif;
+      font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
       width: 90%;
       margin: 0 auto; // to center your div.
@@ -57,79 +57,63 @@ a1 {
 }
 
 name {
-        font-family: Palatino, sans-serif;
         font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.5);
             }
 
 
 @media only screen and (max-width: 480px) {
     body {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
                           }
     name {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.6);
                           }
                           paperextra {
-                                        font-family: Palatino, sans-serif;
                                         font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.62);
                                       }
 
                           heading {
-                                                font-family: Palatino, sans-serif;
                                                 font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.125);
                                       }
                           miniheading {
-                                    font-family: Palatino, sans-serif;
                                     font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
                                   }
                         }
 
 @media only screen and (max-width: 380px) {
     name {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.72);
                                       }
     body {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.728);
                                       }
     paperextra {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.944);
                                       }
 
     heading {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.35);
                                                   }
     miniheading {
-                      font-family: Palatino, sans-serif;
                         font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.728);
                                               }
                           }
 
 @media only screen and (max-width: 300px) {
     name {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.864);
                                                                 }
     body {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.0736);
                                                                 }
     paperextra {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.3328);
                                                                             }
 
     heading {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.62);
                                                                             }
     miniheading {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.0736);
                                                                         }
                                                     }
@@ -137,23 +121,20 @@ name {
 
 
 paperextra {
-              font-family: Palatino, sans-serif;
               font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.35);
             }
 
 heading {
-                      font-family: Palatino, sans-serif;
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.9375);
             }
 miniheading {
-          font-family: Palatino, sans-serif;
           font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
         }
 
 
 
 .collapsible {
-              font-family: Palatino, sans-serif;
+              font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
               padding: 0em;
               border: none;
               outline: none;
@@ -179,7 +160,7 @@ miniheading {
 
 
 .content {
-              font-family: Palatino, sans-serif;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
         		  /*font-weight: 500;*/
               text-align: justify;
           		line-height: 25px;
