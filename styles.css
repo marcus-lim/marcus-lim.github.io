@@ -77,6 +77,8 @@ name {
 @media only screen and (max-width: 480px) {
     body {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
+                      width: 100%;
+                      max-width: 100%;
                           }
     name {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.6);
@@ -102,6 +104,8 @@ name {
                                       }
     body {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.728);
+                      width: 100%;
+                      max-width: 100%;
                                       }
     paperextra {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.944);
@@ -122,6 +126,8 @@ name {
                                                                 }
     body {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.0736);
+                      width: 100%;
+                      max-width: 100%;
                                                                 }
     paperextra {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.3328);
@@ -133,7 +139,7 @@ name {
     miniheading {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/2.0736);
                                                                         }
-    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.41472); }                                          
+    .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.41472); }
 
                                                     }
 
