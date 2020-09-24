@@ -5,8 +5,8 @@
   <title>Marcus Lim</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -127,6 +127,20 @@
      	}
 </script>
 
+<script>
+ $('navbar1 a').on('click', function (e) {
+   if (this.hash !== '') {
+     e.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body')
+      .animate({
+        scrollTop: $(hash).offset().top
+      },200);
+  }
+});
+</script>
 
 </body>
 
