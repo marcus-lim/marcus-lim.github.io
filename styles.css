@@ -12,7 +12,6 @@ body {
       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
       width: 90%;
       margin: 0 auto; // to center your div.
-     	left-margin: 2em;
       max-width: 90%;
       border-collapse:separate;
       position: relative;
@@ -22,6 +21,14 @@ body {
       box-sizing: border-box;
    	  padding: 2em 2em 2em 2em;
     }
+
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+  float: right;
+  display: block;
+    }
+}
 
     a {
       color: #1772d0;
@@ -73,8 +80,19 @@ name {
 
                     .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.24); }
 
+@media only screen and (min-width: 600px) {
+  body {
+                    right: 2%;
 
-@media only screen and (max-width: 480px) {
+                  }
+}
+@media only screen and (max-width: 700px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 400px) {
     body {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.44);
                       width: 100%;
@@ -97,7 +115,7 @@ name {
     .anchor { padding-top: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.288); }
 
                         }
-
+/*
 @media only screen and (max-width: 380px) {
     name {
                       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/0.72);
@@ -143,8 +161,7 @@ name {
 
                                                     }
 
-
-
+*/
 .collapsible {
               font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
               padding: 0em;
