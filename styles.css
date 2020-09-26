@@ -22,7 +22,7 @@ body {
    	  padding: 2em 2em 2em 2em;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 670px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
   float: right;
@@ -40,6 +40,31 @@ body {
       color: #f09228;
       text-decoration: none;
     }
+
+    a.heading1 {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a.heading1:focus,
+    a.heading1:hover {
+      color: #BEBEBE;
+      text-decoration: none;
+      border-bottom: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/10) solid;
+    }
+
+    a.icon1 {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a.icon1:focus,
+    a.icon1:hover {
+      color: #BEBEBE;
+      text-decoration: none;
+    }
+
+
 
 .split {
        display: flex;
@@ -203,19 +228,4 @@ name {
 
 li {
                   padding-bottom: 0.2em;
-                }
-
-a  {
-                    	text-decoration: none;
-                }
-
-
-img.figure {
-      float: right;
-      width: 250px;
-      height: 250px;
-      text-align: center;
-      font-size: 80%;
-      margin: 0.5em;
-      padding: 0.5em;
-    }
+              }
