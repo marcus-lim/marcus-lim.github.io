@@ -8,7 +8,9 @@ html {
 }
 
 body {
-      font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    /*   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;  */
+     font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 500;
       font-size: calc((14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))/1.2);
       width: 90%;
       margin: 0 auto; // to center your div.
@@ -31,14 +33,14 @@ body {
 }
 
     a {
-      color: #1772d0;
-      text-decoration: none;
+      color: #000000;
+      text-decoration: underline;
     }
 
     a:focus,
     a:hover {
-      color: #f09228;
-      text-decoration: none;
+      color: #BEBEBE;
+      text-decoration: underline;
     }
 
     a.heading1 {
@@ -64,6 +66,16 @@ body {
       text-decoration: none;
     }
 
+    a.paper1 {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a.paper1:focus,
+    a.paper1:hover {
+      color: #BEBEBE;
+      text-decoration: none;
+    }
 
 
 .split {
@@ -71,6 +83,9 @@ body {
        justify-content: space-between;
     }
 
+.gara {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
 navbar1 {
       overflow: hidden;
       position: fixed;
@@ -188,7 +203,8 @@ name {
 
 */
 .collapsible {
-              font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+            /*  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+*/
               padding: 0em;
               border: none;
               outline: none;
@@ -199,29 +215,31 @@ name {
 
         .collapsible:after {
               /*font-family: "Font Awesome 5 Free";*/
-              content: "+]";
+              content: "+";
               margin-left: 1px;
               /*font-weight: 600;*/
             }
 
 .active:after {
               /*font-family: "Font Awesome 5 Free";*/
-              content: "-]";
+              content: "-";
          		  margin-left: 3px;
               /*font-weight: 600;*/
         	  }
 
 
 .content {
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+/*  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+*/
         		  /*font-weight: 500;*/
               text-align: justify;
           		line-height: 25px;
           		background: #DDDDDD;
          		  max-height: 0;
           		overflow: hidden;
+              margin-top: 0.5em;
           		border-radius: 15px;
-          		padding: 0 18px;
+          		padding: 0em 18px;
           		transition: max-height 0.2s ease-in-out;
           	}
 
